@@ -9,6 +9,7 @@ contract first{
     uint256 numberis = 88; // 256 bits explicit how many bits are using
     
     int256 intNumber = -88;
+    
 
     string text = "80";
 
