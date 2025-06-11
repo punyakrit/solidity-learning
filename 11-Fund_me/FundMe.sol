@@ -93,4 +93,13 @@ contract FundMe {
         // if this "_;" is above then whole function code comes at top and then comes the require statement
 
     }
+
+
+    receive() payable external{
+        fund(); // redirects to fund function
+    }
+
+    fallback() payable external{
+        fund();
+    }
 }
